@@ -1,0 +1,26 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "Проект frontend-project-46 на Хекслете",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaivanchi/frontend-project-46.git"
+  },
+  "author": "gaivanchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaivanchi/frontend-project-46/issues"
+  },
+  "homepage": "https://github.com/gaivanchi/frontend-project-46#readme",
+  "type": "module",
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
+  "dependencies": {
+    "commander": "^10.0.1"
+  }
+}
