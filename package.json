@@ -2,7 +2,7 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "Проект frontend-project-46 на Хекслете",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
   },
@@ -21,6 +21,8 @@
     "gendiff": "bin/gendiff.js"
   },
   "dependencies": {
-    "commander": "^10.0.1"
+    "commander": "^10.0.1",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21"
   }
 }
