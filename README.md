@@ -15,3 +15,6 @@ make install
 ### Demonstration of utility 'gendiff' with flat YAML files:
 [![asciicast](https://asciinema.org/a/FIi8qQj7q0MIQ1KZh2DPt92ZF.svg)](https://asciinema.org/a/FIi8qQj7q0MIQ1KZh2DPt92ZF)
 
+### Demonstration of utility 'gendiff' with nested files:
+[![asciicast](https://asciinema.org/a/pc4zYB0IXeYIK3cJOGl3km14z.svg)](https://asciinema.org/a/pc4zYB0IXeYIK3cJOGl3km14z)
+
