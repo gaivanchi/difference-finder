@@ -21,3 +21,6 @@ make install
 ### Demonstration of utility 'gendiff' with nested files ("plain" format):
 [![asciicast](https://asciinema.org/a/Gnyi47AaxFrEmBcbzbvRY2kmV.svg)](https://asciinema.org/a/Gnyi47AaxFrEmBcbzbvRY2kmV)
 
+### Demonstration of utility 'gendiff' with nested files ("json" format):
+[![asciicast](https://asciinema.org/a/06GPxiGNJzfJyop1YCbHUOxuR.svg)](https://asciinema.org/a/06GPxiGNJzfJyop1YCbHUOxuR)
+
