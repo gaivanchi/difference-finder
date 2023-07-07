@@ -48,3 +48,23 @@ test('gendiff with YAML files ("plain" format)', () => {
 
   expect(diff).toBe(result);
 });
+
+test('gendiff with JSON files ("JSON" format)', () => {
+  const filepath1 = getFixturePath('file1.json');
+  const filepath2 = getFixturePath('file2.json');
+
+  const diff = genDiff(filepath1, filepath2, 'json');
+  const result = readFile('resultJson.txt');
+
+  expect(diff).toBe(result);
+});
+
+test('gendiff with YAML files ("JSON" format)', () => {
+  const filepath1 = getFixturePath('file1.yml');
+  const filepath2 = getFixturePath('file2.yaml');
+
+  const diff = genDiff(filepath1, filepath2, 'json');
+  const result = readFile('resultJson.txt');
+
+  expect(diff).toBe(result);
+});
