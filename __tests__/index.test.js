@@ -14,7 +14,7 @@ test('gendiff with JSON files (default "stylish" format)', () => {
   const filepath2 = getFixturePath('file2.json');
 
   const diff = genDiff(filepath1, filepath2);
-  const result = readFile('resultStylish.txt');
+  const result = readFile('result_stylish.txt');
 
   expect(diff).toBe(result);
 });
@@ -24,7 +24,7 @@ test('gendiff with YAML files (default "stylish" format)', () => {
   const filepath2 = getFixturePath('file2.yaml');
 
   const diff = genDiff(filepath1, filepath2);
-  const result = readFile('resultStylish.txt');
+  const result = readFile('result_stylish.txt');
 
   expect(diff).toBe(result);
 });
@@ -34,7 +34,7 @@ test('gendiff with JSON files ("plain" format)', () => {
   const filepath2 = getFixturePath('file2.json');
 
   const diff = genDiff(filepath1, filepath2, 'plain');
-  const result = readFile('resultPlain.txt');
+  const result = readFile('result_plain.txt');
 
   expect(diff).toBe(result);
 });
@@ -44,27 +44,27 @@ test('gendiff with YAML files ("plain" format)', () => {
   const filepath2 = getFixturePath('file2.yaml');
 
   const diff = genDiff(filepath1, filepath2, 'plain');
-  const result = readFile('resultPlain.txt');
+  const result = readFile('result_plain.txt');
 
   expect(diff).toBe(result);
 });
 
-test('gendiff with JSON files ("JSON" format)', () => {
+test('gendiff with JSON files ("json" format)', () => {
   const filepath1 = getFixturePath('file1.json');
   const filepath2 = getFixturePath('file2.json');
 
   const diff = genDiff(filepath1, filepath2, 'json');
-  const result = readFile('resultJson.txt');
+  const result = readFile('result_json.txt');
 
   expect(diff).toBe(result);
 });
 
-test('gendiff with YAML files ("JSON" format)', () => {
+test('gendiff with YAML files ("json" format)', () => {
   const filepath1 = getFixturePath('file1.yml');
   const filepath2 = getFixturePath('file2.yaml');
 
   const diff = genDiff(filepath1, filepath2, 'json');
-  const result = readFile('resultJson.txt');
+  const result = readFile('result_json.txt');
 
   expect(diff).toBe(result);
 });
