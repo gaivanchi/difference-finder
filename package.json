@@ -1,21 +1,21 @@
 {
-  "name": "@hexlet/code",
+  "name": "difference-finder",
   "version": "1.0.0",
-  "description": "Проект frontend-project-46 на Хекслете",
+  "description": "Program that determines the difference between two data structures",
   "main": "lib/index.js",
   "scripts": {
     "test": "npx jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gaivanchi/frontend-project-46.git"
+    "url": "git+https://github.com/gaivanchi/difference-finder.git"
   },
   "author": "gaivanchi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gaivanchi/frontend-project-46/issues"
+    "url": "https://github.com/gaivanchi/difference-finder/issues"
   },
-  "homepage": "https://github.com/gaivanchi/frontend-project-46#readme",
+  "homepage": "https://github.com/gaivanchi/difference-finder#readme",
   "type": "module",
   "bin": {
     "gendiff": "bin/gendiff.js"
